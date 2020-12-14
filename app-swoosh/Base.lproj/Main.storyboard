@@ -58,6 +58,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="bgImg" destination="Ka8-xJ-6dQ" id="JX6-wk-tJI"/>
+                        <outlet property="swoosh" destination="VFg-Oc-eS0" id="93q-p4-Q4z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
