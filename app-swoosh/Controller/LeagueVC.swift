@@ -8,7 +8,14 @@
 import UIKit
 
 class LeagueVC: UIViewController {
+    
+    
 
+
+//    segues
+    @IBAction func onNextTapped(_ sender: Any) {
+        performSegue(withIdentifier: "skillVCSegue", sender: self)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
