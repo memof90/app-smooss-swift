@@ -7,15 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
     
     // MARK:IBOutlet
 
-//    logo
-    @IBOutlet weak var swoosh: UIImageView!
-//    background image 
-    @IBOutlet weak var bgImg: UIImageView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
