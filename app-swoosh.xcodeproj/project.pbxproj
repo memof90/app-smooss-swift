@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8D8060A625884ACA009790C6 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8060A525884ACA009790C6 /* LeagueVC.swift */; };
 		8D8060AA25884AF7009790C6 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8060A925884AF7009790C6 /* SkillVC.swift */; };
+		8D8060AD258852C6009790C6 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8060AC258852C6009790C6 /* Player.swift */; };
 		8DF2FC6D2585698900CD2DFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2FC6C2585698900CD2DFD /* AppDelegate.swift */; };
 		8DF2FC6F2585698900CD2DFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2FC6E2585698900CD2DFD /* SceneDelegate.swift */; };
 		8DF2FC712585698900CD2DFD /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2FC702585698900CD2DFD /* WelcomeVC.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		8D8060A525884ACA009790C6 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 		8D8060A925884AF7009790C6 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
+		8D8060AC258852C6009790C6 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		8DF2FC692585698900CD2DFD /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF2FC6C2585698900CD2DFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DF2FC6E2585698900CD2DFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		8DDD8E172588485200210730 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8D8060AC258852C6009790C6 /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				8DF2FC712585698900CD2DFD /* WelcomeVC.swift in Sources */,
 				8DF2FC6D2585698900CD2DFD /* AppDelegate.swift in Sources */,
 				8DF2FC6F2585698900CD2DFD /* SceneDelegate.swift in Sources */,
+				8D8060AD258852C6009790C6 /* Player.swift in Sources */,
 				8D8060AA25884AF7009790C6 /* SkillVC.swift in Sources */,
 				8DF2FC83258574D400CD2DFD /* BorderButton.swift in Sources */,
 			);

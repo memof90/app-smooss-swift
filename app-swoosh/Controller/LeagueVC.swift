@@ -10,6 +10,12 @@ import UIKit
 class LeagueVC: UIViewController {
     
     
+    var player: Player!
+    
+    // MARK:Outlets
+    
+    @IBOutlet weak var nextBtn: BorderButton!
+    
 
 
 //    segues
@@ -20,9 +26,36 @@ class LeagueVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        player = Player()
     }
     
-
+    // MARK:ACtions
+//    button Mens
+    @IBAction func onMensTapped(_ sender: Any) {
+//        player.desiredLeague = "mens"
+//        nextBtn.isEnabled = true
+        seleteLegue(legueType: "mens")
+    }
+//    button Wommens
+    @IBAction func onWomensTapped(_ sender: Any) {
+//        player.desiredLeague = "womens"
+//        nextBtn.isEnabled  = true
+        seleteLegue(legueType: "womens")
+    }
+    
+//    button Co-ed
+    @IBAction func onCoedTapped(_ sender: Any) {
+//        player.desiredLeague = "coed"
+//        nextBtn.isEnabled = true
+        seleteLegue(legueType: "coed")
+    }
+    
+    // MARK:Functions
+//Function to select league
+    func seleteLegue(legueType: String) {
+        player.desiredLeague = legueType
+        nextBtn.isEnabled = true
+    }
     /*
     // MARK: - Navigation
 
